@@ -23,8 +23,12 @@ Usage
     # or separate
     UltraPowList.make_loadable 'plist'
 
+    # ... whatever you want to do with these libs ...
+
+    require 'textpow'
     require 'uv'
-    ... whatever you want to do with these libs ...
+    puts Uv.syntaxes.join( ", " )
+    puts result = Uv.parse( 'some text', "xhtml", "css", true, "amy")
 
 TODO
 ====
