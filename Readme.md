@@ -1,6 +1,8 @@
 Ultraviolet + TextPow + PList for Ruby 1.8 and 1.9
 Because all these libs are kind of broken and dont work well on either platform.
 
+If you only need ruby 1.9, simply go with `spox-ultraviolet`.
+
 Install
 =======
     gem install ultra_pow_list
