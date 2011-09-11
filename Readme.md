@@ -27,10 +27,19 @@ Usage
 
     # ... whatever you want to do with these libs ...
 
+    # to html
     require 'textpow'
     require 'uv'
     puts Uv.syntaxes.join( ", " )
-    puts result = Uv.parse( 'some text', "xhtml", "css", true, "amy")
+
+    # analyse syntax
+    language = 'ruby'
+    syntax = File.join(Uv.path.first,'uv', 'syntax',"#{language}.syntax")
+    syntax = Textpow::SyntaxNode.load(syntax)
+    processor = Textpow::DebugProcessor.new
+    puts result = syntax.parse( "class Foo\n  def xxx;end\nend",  processor )
+
+
 
 TODO
 ====
