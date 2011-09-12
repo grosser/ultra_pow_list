@@ -7,7 +7,6 @@ describe UltraPowList do
 
   it "makes stuff loadable" do
     UltraPowList.make_loadable
-    require 'plist'
     require 'textpow'
     require 'uv'
   end
