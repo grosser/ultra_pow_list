@@ -1,3 +1,15 @@
+Use ultraviolet1x
+=================
+This repo is deprecated/unmaintained, please use [ultraviolet1x -- ultraviolet for ruby 1.8 + ruby 1.9](https://github.com/grosser/ultraviolet)
+
+ - less hacky
+ - less duplication
+ - more syntaxes
+
+
+UltraPowList
+============
+
 Ultraviolet + TextPow for Ruby 1.8 and 1.9
 Because all these libs are kind of broken and dont work well on either platform.
 
